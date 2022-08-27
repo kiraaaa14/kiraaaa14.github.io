@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password=tanggal lahirmu,angka semua mis 04032003</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="tes.css" />
+  </head>
+  <body>
+    <audio controls loop autoplay> 
+      <source src ="u belong to me.mp3" class="mt-5 ms-5" type ="audio/mp3"/>
+    </audio>
+    <script>
+      alert("Halo, Selamat datang");
+      alert("Pastikan memakai huruf kapital dalam menulis nama yaaa :)");
+      alex:
+      var nama = prompt("Masukkan namamu : ");
+      while (nama != "Nadine") {
+        alert("Maaf, web ini bukan untukkmu");
+        alert("Nadine mana woi!!!!!");
+        nama = prompt("Masukkan nama : ");
+        if (nama == "Nadine") break;
+      }
+      alert(`Halo ${nama}, apa kabar`);
+      var pw = prompt(`yang bener ini ${nama}, ${nama} passwordnyaaaa ? `);
+      var pass = "04012007";
+      alert(`hy ${nama}, masih ingat kan? kok kita jadi asing sih?  `)
+      alert("Gimana kabarmu? sehat dong pastinyakan haha. soalnya asal abang liat pagi-pagi sebelum u sekolah masih bisa jalan kok :v");
+      if (pw != pass) {
+        alert(`kipak lu ya, lu bukan ${nama} anjg`);
+      }
+    
+    </script>
+    <section class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p
+              class="text-center fs-2 text-light mt-5"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="2000"
+            >
+              Hai Bocil, udah lama nih ga berkabar hahaha
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div
+              class="card"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              data-aos-easing="linear"
+            >
+              <img src="cuplikan.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">My Story</h5>
+                <a
+                  href="https://drive.google.com/drive/folders/1q9v0G2abRpuHv9Gn9ZqWcoTN85ko_Gag?usp=sharing"
+                  class="btn btn-outline-primary"
+                  target="_blank"
+                  onclick="kepo()"
+                  >Klik aja kalau kepo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pertanyaan">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="text-center fs-2 text-light">Aku ganteng ga ? </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-1">
+            <button id="mau" onclick='alert("Ya udah kapan putuslah, biar kita kembali")'>Ya</button>&nbsp;
+              <button id="gamau" onclick='gamau(this)' style="position: absolute">Tidak</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function gamau(id){
+          var mau = document.getElementById('mau');
+          var i =Math.floor(Math.random()*300)+1;
+          var j = Math.floor(Math.random()*100)+mau.offsetTop;
+          id.style.left=i+'px';
+          id.style.top=j+'px';
+      } 
+      function kepo(){
+        alert('Cieee kepo')
+      }
+  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
